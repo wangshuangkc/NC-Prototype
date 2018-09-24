@@ -84,7 +84,7 @@
           <h4>Install upgrades across all Nutanix services</h4>
         </div>
         <div class="launch"></div>
-        <a href="index2.html" class="btngrn">Launch</a> 
+        <a href="../index2.html" class="btngrn">Launch</a> 
         <div id="loadingbar-frame"></div>
         </div>
       </div>
@@ -156,6 +156,31 @@
           window.setTimeout( function() {
 
             window.location.href = 'http://nutanix.design/mockup/prism-2.0/index.html';
+          }, 1000 * WAIT_TIME );
+
+          // $.each( data.items, function( i, item ) {
+
+
+          //   $( "<img/>" ).attr( "src", item.media.m ).prependTo( $("#frame") );
+          //   if ( i === 2 ) {
+          //     return false;
+          //   }
+          // });
+        }
+      });
+    </script>
+
+    <script type="text/javascript">
+  var WAIT_TIME = 0.8; // inm seconds;
+      $(".btngrn").loadingbar({ 
+        target:".loadingbar-frame",
+
+        done: function(data) {
+          // console.log ('----',data)
+
+          window.setTimeout( function() {
+
+            window.location.href = 'index2.html';
           }, 1000 * WAIT_TIME );
 
           // $.each( data.items, function( i, item ) {
