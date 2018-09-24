@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.66666667,11.6643333 L9.33333333,11.6643333 L9.33333333,11.6666667 C9.33333333,12.9546667 8.288,14 7,14 C5.712,14 4.66666667,12.9546667 4.66666667,11.6666667 L4.66666667,11.6643333 Z M11.6666667,6.92398544 C11.6666667,7.68231877 12.1065,8.38231877 12.7843333,8.72298544 L13.6791667,9.17215211 C13.8763333,9.27131877 14,9.47315211 14,9.69365211 L14,9.91648544 C14,10.2384854 13.7386667,10.4998188 13.4166667,10.4998188 L0.583333333,10.4998188 C0.261333333,10.4998188 0,10.2384854 0,9.91648544 L0,9.69481877 C0,9.47431877 0.124833333,9.27248544 0.323166667,9.17331877 L1.23316667,8.72065211 C1.91566667,8.38115211 2.33333333,7.68465211 2.33333333,6.92398544 L2.33333333,4.66648544 C2.33333333,1.93881877 4.68883333,-0.24401456 7.47133333,0.0219854402 C9.898,0.25298544 11.6666667,2.42415211 11.6666667,4.86131877 L11.6666667,6.92398544 Z" id="path-1"></path>
+    </defs>
+    <g id="Updates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="entities-update-v1-copy" transform="translate(-1026.000000, -23.000000)">
+            <g id="Page-With-Sidebar">
+                <g id="Header">
+                    <g id="Right" transform="translate(1026.000000, 20.000000)">
+                        <g id="Alerts">
+                            <g id="Icon-/-Alert" transform="translate(0.000000, 3.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Icon-/-Error" mask="url(#mask-2)" fill="#F55656" fill-rule="evenodd">
+                                    <g id="Color-/-Red-1">
+                                        <rect id="Color" x="0" y="0" width="14" height="14"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

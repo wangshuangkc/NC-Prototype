@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7,13 L1.28398508,13 C0.731700328,13 0.283985078,12.5522847 0.283985078,12 C0.283985078,11.74861 0.378668784,11.5064422 0.549181633,11.3217199 L10.2651966,0.796037065 C10.6398003,0.390216328 11.2724594,0.364909966 11.6782801,0.739513723 C11.697867,0.757593963 11.7167232,0.776450138 11.7348034,0.796037065 L21.4508184,11.3217199 C21.8254221,11.7275406 21.8001158,12.3601997 21.394295,12.7348034 C21.2095728,12.9053163 20.9674049,13 20.7160149,13 L15,13 L15,22.5 C15,23.3284271 14.3284271,24 13.5,24 L8.5,24 C7.67157288,24 7,23.3284271 7,22.5 L7,13 Z" id="path-1"></path>
+    </defs>
+    <g id="Updates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="entities-update-v1-copy" transform="translate(-581.000000, -18.000000)">
+            <g id="Group-3" transform="translate(581.000000, 18.000000)">
+                <g id="Group-11">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#687788" xlink:href="#path-1"></use>
+                    <polygon id="Rectangle-2" fill="#858E9B" mask="url(#mask-2)" points="11 0 22 0 22 24 15 24 11 20"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

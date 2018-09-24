@@ -5,9 +5,13 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery.loadingbar.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="fonts/MS_1.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/loadingbar.css" />
+
     <title>Nutanix Central</title>
 </head>
 <body>
@@ -29,15 +33,14 @@
     <h6> Joel Daniels</h6>
    <i class="fas fa-angle-down"></i></div>
 </header>
-
-
-   <!-- Tile-->
-
+  
+  <!-- Tile-->
 <main>
-
+ <div class"category">
+ <h5 id="category">Global Tools </h5> 
 <div class="main-body">
   <div class="tile-canvas">
-    <!--Alerts-->
+    <!--Alerts--> 
   <div class="tile">
          <div class="icons">
             <img class="star" src="images/star.svg">
@@ -49,41 +52,44 @@
           <h4>View Nutanix Central alerts and alerts across all Nutanix services</h4>
         </div>
         <div class="launch"></div>
-        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn" target="_blank">Launch</a> 
+        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btngrn" target="_blank">Launch</a> 
         </div>
       </div>
       
-  <!--Prism-->
-   <div class="prism">
+  <!--Permissions-->
+ <div class="permissions">
          <div class="icons">
             <img class="star" src="images/star.svg">
-            <img class="alerts" src="images/prism.svg">
+            <img class="alerts" src="images/permissions.svg">
             <img class="settings" src="images/settings.svg">
         </div>
           <div class="tile-header">
-          <h3>Prism</h3>
-          <h4>Manage your on-prem Nutanix infrastructure</h4>
+          <h3>Permissions</h3>
+          <h4>Control users, permissions and roles across Nutanix Central</h4>
         </div>
         <div class="launch"></div>
-        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn">Launch</a> 
+        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btngrn">Launch</a> 
         </div>
       </div>
 
-<!--Calm-->
-   <div class="calm">
+<!--Updates-->
+       <div class="updates">
          <div class="icons">
             <img class="star" src="images/star.svg">
-            <img class="alerts" src="images/calm.svg">
+            <img class="alerts" src="images/updates.svg">
             <img class="settings" src="images/settings.svg">
         </div>
           <div class="tile-header">
-          <h3>Calm</h3>
-          <h4>View deployed applications and take actions on them</h4>
+          <h3>Updates</h3>
+          <h4>Install upgrades across all Nutanix services</h4>
         </div>
         <div class="launch"></div>
-        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn">Launch</a> 
+        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btngrn">Launch</a> 
         </div>
       </div>
+
+
+    <h5> Services </h5>
 
  <!--Era-->
    <div class="era">
@@ -101,45 +107,69 @@
         </div>
       </div>
 
-      <!--Permissions-->
-   <div class="permissions">
+      <!--Prism-->
+       <div class="prism">
          <div class="icons">
             <img class="star" src="images/star.svg">
-            <img class="alerts" src="images/permissions.svg">
+            <img class="alerts" src="images/prism.svg">
             <img class="settings" src="images/settings.svg">
         </div>
           <div class="tile-header">
-          <h3>Permissions</h3>
-          <h4>Control users, permissions and roles across Nutanix Central</h4>
+          <h3>Prism</h3>
+          <h4>Manage your on-prem Nutanix infrastructure</h4>
+        </div>
+        <div class="launch"></div>
+        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn" >Launch</a> 
+        <div id="loadingbar-frame"></div>
+        </div>
+      </div>
+
+
+
+         <!--Calm-->
+  <div class="calm">
+         <div class="icons">
+            <img class="star" src="images/star.svg">
+            <img class="alerts" src="images/calm.svg">
+            <img class="settings" src="images/settings.svg">
+        </div>
+          <div class="tile-header">
+          <h3>Calm</h3>
+          <h4>View deployed applications and take actions on them</h4>
         </div>
         <div class="launch"></div>
         <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn">Launch</a> 
         </div>
       </div>
 
-         <!--Updates-->
-   <div class="updates">
-         <div class="icons">
-            <img class="star" src="images/star.svg">
-            <img class="alerts" src="images/updates.svg">
-            <img class="settings" src="images/settings.svg">
-        </div>
-          <div class="tile-header">
-          <h3>Updates</h3>
-          <h4>Install upgrades across all Nutanix services</h4>
-        </div>
-        <div class="launch"></div>
-        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btn">Launch</a> 
-        </div>
-      </div>
 
 
+<script type="text/javascript">
+  var WAIT_TIME = 0.7; // inm seconds;
+      $(".btn").loadingbar({ 
+        target:".loadingbar-frame",
+
+        done: function(data) {
+          // console.log ('----',data)
+
+          window.setTimeout( function() {
+
+            window.location.href = 'http://nutanix.design/mockup/prism-2.0/index.html';
+          }, 1000 * WAIT_TIME );
+
+          // $.each( data.items, function( i, item ) {
 
 
-
-
-
-
+          //   $( "<img/>" ).attr( "src", item.media.m ).prependTo( $("#frame") );
+          //   if ( i === 2 ) {
+          //     return false;
+          //   }
+          // });
+        }
+      });
+    </script>
 </body>
 </html>
+
+
  

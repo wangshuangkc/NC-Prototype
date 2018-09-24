@@ -44,7 +44,7 @@ header {
 header svg {
     position: relative;
     top: 1px;
-    left: 650px;
+    left: 660px;
     width: 22px;
     height: 17px;
   	box-sizing: border-box;
@@ -66,7 +66,7 @@ h1 {
 	width:15px;
 	height:15px;
 	position: relative;
- 	left:-150px;
+ 	left:-160px;
 
 }
 
@@ -132,6 +132,22 @@ h1 {
 	position: absolute;
 	right: 20px;
 	color:#B8BFCA;
+}
+
+
+h5{
+	font-family:NutanixSoft-Medium;
+	font-size:14px;
+	color:#627386;
+	margin-left: 290px;
+	margin-top: 30px;
+
+}
+
+#category{
+    color: #627386;
+    margin-top: 90px;   
+    margin-bottom: -90px;
 }
 
 
@@ -230,6 +246,27 @@ h1 {
     color: white;
 }
 
+.btngrn{
+	background-color: #31BB67;
+	border: none;
+	border-radius: 4px;
+	width: 210px;
+	margin-left: 30px;
+	padding: 11px 15px;
+	font-family: NutanixSoft-Medium;
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.btngrn:hover {
+    background-color: #2BA664; 
+    color: white;
+}
+
 .prism {
     margin-top: -330px;
     margin-left: 630px;
@@ -270,7 +307,7 @@ h1 {
 }
 
 .era {
-    margin-top: 40px;
+    
     margin-left: 290px;
     border-radius: 4px;
     background-color: #fff;
@@ -325,7 +362,5 @@ h1 {
     -webkit-flex-direction: column;
     flex-direction: column;
 }
-
-
 
 
