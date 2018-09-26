@@ -15,6 +15,7 @@ html {
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   background-color: -color-3;
+  visibility:hidden; 
 }
 
 body {
@@ -1179,6 +1180,23 @@ p {
 }
 .n-checkbox[type="checkbox"]:checked + .svg-ntnx-checkbox .check-mark-icon polyline .ie .svg-ntnx-checkbox {
   stroke-dashoffset: 89.5;
+}
+
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
