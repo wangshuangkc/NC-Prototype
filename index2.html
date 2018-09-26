@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="js/jquery.loadingbar.js"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://john00123.github.io/ntnx-tile/font/font.css" type="text/css" charset="utf-8"/>
     <link rel="stylesheet" href="fonts/MS_1.css" type="text/css" charset="utf-8">
   <link rel="stylesheet" href="css/styleupdate.css">
@@ -16,6 +18,7 @@
  <!-- Header-->
   <header>
 
+  
  <svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <a href="https://alisoncheng101.github.io/NC-Prototype/">
@@ -47,6 +50,9 @@
     <h6> Joel Daniels</h6>
    <i class="fas fa-angle-down"></i></div>
 </header>
+
+<div id="page">
+
 
 <div class='container'>
     <div class='button-group'></div>
@@ -146,6 +152,7 @@
 </div>
     </div>
 
+
     <!-- Card7 -->
 
     <div class="cardb">
@@ -159,18 +166,14 @@
 </div>
     </div>
 
-
-
     
 </div>
 
-
-
-
-
-
     </div>
   </div>
+</div>
+<div id="loading"></div>
+
 
 </article>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
@@ -193,6 +196,37 @@ $(".card").click(function(e){
   }
 });
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  document.getElementsByTagName("html")[0].style.visibility = "visible";
+});
+</script>
+
+<script type="text/javascript">
+  function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
+</script>
+
+
+
 
 </body>
 </html>
