@@ -261,6 +261,27 @@ h5{
 	text-decoration: none;
 
 }
+.btngrnalerts{
+	background-color: #31BB67;
+	border: none;
+	border-radius: 4px;
+	width: 210px;
+	margin-left: 30px;
+	padding: 11px 15px;
+	font-family: NutanixSoft-Medium;
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.btngrnalerts:hover {
+    background-color: #2BA664; 
+    color: white;
+}
+
 
 .btngrn:hover {
     background-color: #2BA664; 
