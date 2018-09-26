@@ -47,26 +47,26 @@ header svg {
     left: 660px;
     width: 22px;
     height: 17px;
-  	box-sizing: border-box;
-  	fill: #d5dae0;
-  	cursor: pointer;
+    box-sizing: border-box;
+    fill: #d5dae0;
+    cursor: pointer;
 
 }
 
 h1 {
-	font-family:NutanixSoft-Medium;
-	font-size:14px;
-	color:#22272e;
- 	position: relative;
+  font-family:NutanixSoft-Medium;
+  font-size:14px;
+  color:#22272e;
+  position: relative;
     left: 250px; 
     height: 10px;
 }
 
 .img {
-	width:15px;
-	height:15px;
-	position: relative;
- 	left:-160px;
+  width:15px;
+  height:15px;
+  position: relative;
+  left:-160px;
 
 }
 
@@ -129,18 +129,18 @@ h1 {
 }
 
 .fa-angle-down {
-	position: absolute;
-	right: 20px;
-	color:#B8BFCA;
+  position: absolute;
+  right: 20px;
+  color:#B8BFCA;
 }
 
 
 h5{
-	font-family:NutanixSoft-Medium;
-	font-size:14px;
-	color:#627386;
-	margin-left: 290px;
-	margin-top: 30px;
+  font-family:NutanixSoft-Medium;
+  font-size:14px;
+  color:#627386;
+  margin-left: 290px;
+  margin-top: 30px;
 
 }
 
@@ -152,7 +152,7 @@ h5{
 
 
 .main-body{
-	display: block;
+  display: block;
 
 }
 
@@ -188,57 +188,57 @@ h5{
 }
 
 .star{
-	position: absolute;
-	margin-left: 30px;
-	margin-top: 30px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .alerts{
-	position: absolute;
-	margin-left: 110px;
-	margin-top: 30px;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 30px;
 }
 .settings{
-	position: absolute;
-	margin-left: 258px;
-	margin-top: 30px;
+  position: absolute;
+  margin-left: 258px;
+  margin-top: 30px;
 }
 
 
 
 .tile-header h3 {
-	font-family: NutanixSoft-Thin;
-	font-weight: 300;
-	color:#22272E;
-	font-size:29px;
-	position: relative;
-	
-	margin-top: 147px;
-	text-align: center;
+  font-family: NutanixSoft-Thin;
+  font-weight: 300;
+  color:#22272E;
+  font-size:29px;
+  position: relative;
+  
+  margin-top: 147px;
+  text-align: center;
 }
 
 .tile-header h4{
-	font-family: NutanixSoft-Regular;
-	font-weight: 400;
-	color:#627386;
+  font-family: NutanixSoft-Regular;
+  font-weight: 400;
+  color:#627386;
     margin-left: 30px;
     margin-right: 30px;
-	line-height:1.6;
-	text-align: center;
-	overflow-wrap: break-word;
+  line-height:1.6;
+  text-align: center;
+  overflow-wrap: break-word;
 }
 .btn{
-	background-color: #22A5F7;
-	border: none;
-	border-radius: 4px;
-	width: 210px;
-	margin-left: 30px;
-	padding: 11px 15px;
-	font-family: NutanixSoft-Medium;
-	display: inline-block;
-	color:#fff;
-	font-size: 14px;
-	text-align: center;
-	text-decoration: none;
+  background-color: #22A5F7;
+  border: none;
+  border-radius: 4px;
+  width: 210px;
+  margin-left: 30px;
+  padding: 11px 15px;
+  font-family: NutanixSoft-Medium;
+  display: inline-block;
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
 
 }
 .btn:hover {
@@ -247,33 +247,33 @@ h5{
 }
 
 .btngrn{
-	background-color: #31BB67;
-	border: none;
-	border-radius: 4px;
-	width: 210px;
-	margin-left: 30px;
-	padding: 11px 15px;
-	font-family: NutanixSoft-Medium;
-	display: inline-block;
-	color:#fff;
-	font-size: 14px;
-	text-align: center;
-	text-decoration: none;
+  background-color: #31BB67;
+  border: none;
+  border-radius: 4px;
+  width: 210px;
+  margin-left: 30px;
+  padding: 11px 15px;
+  font-family: NutanixSoft-Medium;
+  display: inline-block;
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
 
 }
 .btngrnalerts{
-	background-color: #31BB67;
-	border: none;
-	border-radius: 4px;
-	width: 210px;
-	margin-left: 30px;
-	padding: 11px 15px;
-	font-family: NutanixSoft-Medium;
-	display: inline-block;
-	color:#fff;
-	font-size: 14px;
-	text-align: center;
-	text-decoration: none;
+  background-color: #31BB67;
+  border: none;
+  border-radius: 4px;
+  width: 210px;
+  margin-left: 30px;
+  padding: 11px 15px;
+  font-family: NutanixSoft-Medium;
+  display: inline-block;
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
 
 }
 
