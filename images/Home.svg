@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28,37 L28,41 C28,41.5522847 27.5522847,42 27,42 L24,42 C22.8954305,42 22,41.1045695 22,40 L22,32 L19.5333425,32 C18.7049154,32 18.0333425,31.3284271 18.0333425,30.5 C18.0333425,30.1112854 18.1842413,29.7377501 18.4542403,29.4581082 L28.9208978,18.6176416 C29.4963187,18.0216699 30.4459201,18.0050102 31.0418918,18.5804311 C31.0545119,18.5926161 31.0669173,18.6050214 31.0791022,18.6176416 L41.5457597,29.4581082 C42.1211806,30.0540799 42.1045209,31.0036813 41.5085492,31.5791022 C41.2289074,31.8491012 40.855372,32 40.4666575,32 L38,32 L38,40 C38,41.1045695 37.1045695,42 36,42 L33,42 C32.4477153,42 32,41.5522847 32,41 L32,37 C32,36.4477153 31.5522847,36 31,36 L29,36 C28.4477153,36 28,36.4477153 28,37 Z" id="path-1"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Menu" transform="translate(-450.000000, -70.000000)">
+            <g id="Dropdown" transform="translate(430.000000, 60.000000)">
+                <g id="Group-13-Copy" transform="translate(20.000000, 10.000000)">
+                    <g id="Icon---Home">
+                        <rect id="Backdrop" fill-opacity="0.1" fill="#22A5F7" x="0" y="0" width="60" height="60" rx="4"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#22A5F7" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-2-Copy" fill="#59BCF9" mask="url(#mask-2)" x="30" y="18" width="12" height="14"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="#22A5F7" mask="url(#mask-2)" x="18" y="18" width="12" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

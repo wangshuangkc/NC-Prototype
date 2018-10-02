@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26,31 L20.2839851,31 C19.7317003,31 19.2839851,30.5522847 19.2839851,30 C19.2839851,29.74861 19.3786688,29.5064422 19.5491816,29.3217199 L29.2651966,18.7960371 C29.6398003,18.3902163 30.2724594,18.36491 30.6782801,18.7395137 C30.697867,18.757594 30.7167232,18.7764501 30.7348034,18.7960371 L40.4508184,29.3217199 C40.8254221,29.7275406 40.8001158,30.3601997 40.394295,30.7348034 C40.2095728,30.9053163 39.9674049,31 39.7160149,31 L34,31 L34,40.5 C34,41.3284271 33.3284271,42 32.5,42 L27.5,42 C26.6715729,42 26,41.3284271 26,40.5 L26,31 Z" id="path-1"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Menu" transform="translate(-450.000000, -170.000000)">
+            <g id="Dropdown" transform="translate(430.000000, 60.000000)">
+                <g id="Group-17-Copy" transform="translate(20.000000, 110.000000)">
+                    <g id="Group-11">
+                        <rect id="Backdrop-Copy-4" fill-opacity="0.1" fill="#36D068" x="0" y="0" width="60" height="60" rx="4"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#31BB67" xlink:href="#path-1"></use>
+                        <polygon id="Rectangle-2" fill="#36D068" mask="url(#mask-2)" points="30 18 41 18 41 42 34 42 30 38"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

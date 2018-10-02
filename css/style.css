@@ -58,16 +58,10 @@ h1 {
   font-size:14px;
   color:#22272e;
   position: relative;
+
     left: 250px; 
     height: 10px;
-}
-
-.img {
-  width:15px;
-  height:15px;
-  position: relative;
-  left:-160px;
-
+      font-weight: 400;
 }
 
 
@@ -117,6 +111,7 @@ h1 {
   margin-left: 20px;
   margin-right:20px;
   font-family:NutanixSoft-Medium;
+  font-weight: 400;
   font-size:14px;
   color:#b8bfca;
   letter-spacing:0;
@@ -135,8 +130,10 @@ h1 {
 }
 
 
+
 h5{
   font-family:NutanixSoft-Medium;
+  font-weight: 400;
   font-size:14px;
   color:#627386;
   margin-left: 290px;
@@ -384,4 +381,113 @@ h5{
     flex-direction: column;
 }
 
+/*dropdown--*/
 
+.fa-angle-up {
+    position: relative;
+    bottom:5px;
+    left: -3px;
+    transform: rotate(180deg); 
+    cursor: pointer;
+}
+
+.dropbtn {
+  width:10px;
+  height:10px;
+  background-color: #F2F4F6;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position:relative;
+    left:-150px;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+}
+
+.dropbtn:hover {
+    background-color: #D5DAE0;
+    outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+.dropbtn:focus {
+    background-color: #D5DAE0;
+    outline: 0;
+  border: none;
+  -moz-outline-style: none;
+   transform: rotate(180deg); 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:  absolute;
+    left:-400px;
+    top:40px;
+    background-color: #FFFFFF;
+    height:210px;
+    min-width: 420px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+    z-index: 1;
+    border-radius: 4px;
+
+}
+
+.dropdown-content a {
+    text-decoration: none;
+
+}
+
+
+
+.show {display: block;}
+
+div.items {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    width:55px;
+    position: relative;
+    font-family:NutanixSoft-Medium;
+    color:#627386;
+    font-size:14px;
+    font-weight: 400
+}
+div.items:hover{
+  color:#22272E;
+   opacity: 0.8;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    margin-top:10px;
+    display: block;
+}
+
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url("https://3.bp.blogspot.com/-TPagpYykEQA/UnJ3yz1ymII/AAAAAAAABEk/4yqujuQ1yAQ/s1600/Loading+(5).gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}

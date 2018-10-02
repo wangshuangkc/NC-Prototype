@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,5 C24,7.762 21.762,10 19,10 C16.238,10 14,7.762 14,5 C14,2.238 16.238,0 19,0 C21.762,0 24,2.238 24,5 Z M10,19 C10,21.762 7.762,24 5,24 C2.238,24 0,21.762 0,19 C0,16.238 2.238,14 5,14 C7.762,14 10,16.238 10,19 Z M8,0 C9.104,0 10,0.894 10,2 C10,3.106 9.104,4 8,4 L5,4 C4.448,4 4,4.448 4,5 L4,8 C4,9.106 3.104,10 2,10 C0.896,10 0,9.106 0,8 L0,4 C0,1.792 1.792,0 4,0 L8,0 Z M22,14 C23.104,14 24,14.894 24,16 L24,20 C24,22.208 22.208,24 20,24 L16,24 C14.896,24 14,23.106 14,22 C14,20.894 14.896,20 16,20 L19,20 C19.552,20 20,19.552 20,19 L20,16 C20,14.894 20.896,14 22,14 Z" id="path-1"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Menu" transform="translate(-690.000000, -70.000000)">
+            <g id="Dropdown" transform="translate(430.000000, 60.000000)">
+                <g id="Group-16" transform="translate(260.000000, 10.000000)">
+                    <g id="Group-13">
+                        <rect id="Backdrop-Copy-3" fill-opacity="0.1" fill="#22A5F7" x="0" y="0" width="60" height="60" rx="4"></rect>
+                        <g id="Icon---Group-By" transform="translate(30.000000, 30.000000) rotate(90.000000) translate(-30.000000, -30.000000) translate(18.000000, 18.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#22A5F7" xlink:href="#path-1"></use>
+                            <path d="M0,-3.394e-13 L10,-3.394e-13 L10,2 L5,2 C3.34314575,2 2,3.34314575 2,5 L2,10 L0,10 L0,-3.394e-13 Z" id="Rectangle-6" fill="#59BCF9" mask="url(#mask-2)"></path>
+                            <path d="M15,12 L22,12 L22,14 L17,14 C15.3431458,14 14,15.3431458 14,17 L14,22 L12,22 L12,15 C12,13.3431458 13.3431458,12 15,12 Z" id="Rectangle-6" fill="#59BCF9" mask="url(#mask-2)" transform="translate(17.000000, 17.000000) scale(-1, -1) translate(-17.000000, -17.000000) "></path>
+                            <polygon id="Rectangle-7" fill="#59BCF9" mask="url(#mask-2)" points="0 14 10 14 0 24"></polygon>
+                            <polygon id="Rectangle-7-Copy" fill="#59BCF9" mask="url(#mask-2)" points="14 0 24 0 14 10"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.7323712,1.0027767 L27.269551,21.0005551 C27.8215292,21.9573173 27.4933869,23.180393 26.5366248,23.7323712 C26.2327183,23.9077018 25.8880358,24 25.5371798,24 L2.46282016,24 C1.35825066,24 0.46282016,23.1045695 0.46282016,22 C0.46282016,21.649144 0.55511837,21.3044615 0.73044898,21.0005551 L12.2676288,1.0027767 C12.819607,0.04601452 14.0426827,-0.28212775 14.9994449,0.26985043 C15.3039161,0.44550688 15.5567147,0.69830552 15.7323712,1.0027767 Z" id="path-1"></path>
+        <path d="M15.7323712,1.0027767 L27.269551,21.0005551 C27.8215292,21.9573173 27.4933869,23.180393 26.5366248,23.7323712 C26.2327183,23.9077018 25.8880358,24 25.5371798,24 L2.46282016,24 C1.35825066,24 0.46282016,23.1045695 0.46282016,22 C0.46282016,21.649144 0.55511837,21.3044615 0.73044898,21.0005551 L12.2676288,1.0027767 C12.819607,0.04601452 14.0426827,-0.28212775 14.9994449,0.26985043 C15.3039161,0.44550688 15.5567147,0.69830552 15.7323712,1.0027767 Z" id="path-3"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Menu" transform="translate(-530.000000, -70.000000)">
+            <g id="Dropdown" transform="translate(430.000000, 60.000000)">
+                <g id="Group-14" transform="translate(100.000000, 10.000000)">
+                    <g id="Group-3">
+                        <rect id="Backdrop-Copy" fill-opacity="0.1" fill="#22A5F7" x="0" y="0" width="60" height="60" rx="4"></rect>
+                        <g id="Rectangle-8" transform="translate(16.000000, 18.000000)" fill="#22A5F7" fill-rule="nonzero">
+                            <path d="M15.7323712,1.0027767 L27.269551,21.0005551 C27.8215292,21.9573173 27.4933869,23.180393 26.5366248,23.7323712 C26.2327183,23.9077018 25.8880358,24 25.5371798,24 L2.46282016,24 C1.35825066,24 0.46282016,23.1045695 0.46282016,22 C0.46282016,21.649144 0.55511837,21.3044615 0.73044898,21.0005551 L12.2676288,1.0027767 C12.819607,0.04601452 14.0426827,-0.28212775 14.9994449,0.26985043 C15.3039161,0.44550688 15.5567147,0.69830552 15.7323712,1.0027767 Z" id="path-1"></path>
+                        </g>
+                        <g id="Rectangle-9-Clipped" transform="translate(16.000000, 18.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <polygon id="Rectangle-9" fill="#59BCF9" fill-rule="nonzero" mask="url(#mask-2)" points="14 -2 14 15 -1 24"></polygon>
+                        </g>
+                        <g id="Rectangle-9-Clipped" transform="translate(16.000000, 18.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <polygon id="Rectangle-9" fill="#91D2FB" fill-rule="nonzero" mask="url(#mask-4)" points="14 -2 14 15 29 24"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

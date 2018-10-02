@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - User</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23.7993928,32.5232503 C25.4135637,34.0580677 27.5967818,35 30,35 C32.4041417,35 34.5881142,34.0573437 36.2024678,32.5214807 L39.5724788,34.5434873 C41.0785058,35.4471035 42,37.0746376 42,38.8309519 L42,40 C42,41.1045695 41.1045695,42 40,42 L20,42 C18.8954305,42 18,41.1045695 18,40 L18,39 C18,37.1389119 18.9768233,35.4143921 20.5730435,34.4574543 L23.7993928,32.5232503 Z M30,18 C33.3137085,18 36,20.6862915 36,24 L36,26 C36,29.3137085 33.3137085,32 30,32 C26.6862915,32 24,29.3137085 24,26 L24,24 C24,20.6862915 26.6862915,18 30,18 Z" id="path-1"></path>
+    </defs>
+    <g id="v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Menu" transform="translate(-770.000000, -70.000000)">
+            <g id="Dropdown" transform="translate(430.000000, 60.000000)">
+                <g id="Group-17" transform="translate(340.000000, 10.000000)">
+                    <g id="Icon---User">
+                        <rect id="Backdrop-Copy-4" fill-opacity="0.1" fill="#36D068" x="0" y="0" width="60" height="60" rx="4"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#31BB67" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-2-Copy" fill="#36D068" mask="url(#mask-2)" x="30" y="18" width="12" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

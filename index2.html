@@ -43,10 +43,50 @@
 </a>
   <h1> Updates </h1>   
 
-    <img class="img" src="images/Group 2.png">
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fas fa-angle-up"></i></button>
+
+  <div id="myDropdown" class="dropdown-content">
+    <div class="items">
+      <img src="images/Home.svg"/>
+        <span class="caption">Home</span>
+</div>
+
+   <div class="items">
+      <a href="prism.html"><img src="images/mPrism.svg"/></a>
+        <span class="caption">Prism</span>
+</div>
+
+ <div class="items">
+      <img src="images/mCalm.svg"/>
+        <span class="caption">Era</span>
+</div>
+
+<div class="items">
+      <img src="images/mEra.svg"/>
+        <span class="caption">Calm</span>
+</div>
+
+<div class="items">
+      <img src="images/mPermission.svg"/>
+        <span class="caption">Permiss...</span>
+</div>
+
+
+<div class="items">
+<br>
+      <a href="https://alisoncheng101.github.io/NC-Prototype/index2.html"><img src="images/mUpdates.svg"/></a>
+        <span class="caption">Upda...</span><br>
+</div>
+
+</div>
+
+  </div>
+</div>
 
     <div class="status">
     <div class="icon task"></div>
+    
     <h6> Joel Daniels</h6>
    <i class="fas fa-angle-down"></i></div>
 </header>
@@ -203,9 +243,12 @@ $(".card").click(function(e){
 });
 </script>
 
+
+
+
 <script type="text/javascript">
   function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 1000);
+    var intervalID = window.setInterval(checkReady, 2000);
 
     function checkReady() {
         if (document.getElementsByTagName('body')[0] !== undefined) {
@@ -223,6 +266,34 @@ onReady(function () {
     show('page', true);
     show('loading', false);
 });
+</script>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+     
+
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+ 
+
+
+
+      }
+    }
+  }
+}
 </script>
 
 

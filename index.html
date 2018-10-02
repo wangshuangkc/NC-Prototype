@@ -20,6 +20,8 @@
 <body>
 
      <!-- Header-->
+
+     <div id="page"></div>
   <header>
 
   <svg viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="logo">
@@ -28,8 +30,47 @@
 
   <h1> Nutanix Central </h1>   
 
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fas fa-angle-up"></i></button>
 
-    <img class="img" src="images/dropdown.png">
+  <div id="myDropdown" class="dropdown-content">
+    <div class="items">
+      <img src="images/Home.svg"/>
+        <span class="caption">Home</span>
+</div>
+
+   <div class="items">
+      <a href="prism.html"><img src="images/mPrism.svg"/></a>
+        <span class="caption">Prism</span>
+</div>
+
+ <div class="items">
+      <img src="images/mCalm.svg"/>
+        <span class="caption">Era</span>
+</div>
+
+<div class="items">
+      <img src="images/mEra.svg"/>
+        <span class="caption">Calm</span>
+</div>
+
+<div class="items">
+      <img src="images/mPermission.svg"/>
+        <span class="caption">Permiss...</span>
+</div>
+
+
+<div class="items">
+<br>
+      <a href="https://alisoncheng101.github.io/NC-Prototype/index2.html"><img src="images/mUpdates.svg"/></a>
+        <span class="caption">Upda...</span><br>
+</div>
+
+</div>
+
+  </div>
+</div>
+
 
     <div class="status">
     <div class="icon task"></div>
@@ -38,6 +79,8 @@
 </header>
   
   <!-- Tile-->
+
+
 <main>
  <div class"category">
  <h5 id="category">Services </h5> 
@@ -55,7 +98,7 @@
           <h4>Manage your on-prem Nutanix infrastructure</h4>
         </div>
         <div class="launch"></div>
-        <a href="http://nutanix.design/mockup/prism-2.0/index.html" class="btnalerts" target="_blank">Launch</a> 
+        <a href="https://nutanix.design/mockup/prism-2.0/index.html" class="btnalerts" target="_blank">Launch</a> 
         </div>
       </div>
       
@@ -91,6 +134,7 @@
         <div id="loadingbar-frame"></div>
         </div>
       </div>
+
 
 
     <h5> Global Tools </h5>
@@ -131,6 +175,8 @@
 
 
  
+</div>
+<div id="loading"></div>
 
 
 
@@ -164,11 +210,63 @@
           window.setTimeout( function() {
 
             window.location.href = 'https://alisoncheng101.github.io/NC-Prototype/index2.html';
-          }, 1000 * WAIT_TIME );
+          }, 2500 * WAIT_TIME );
         }
       });
     </script>
 
+
+
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+     
+
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+ 
+
+
+
+      }
+    }
+  }
+}
+</script>
+
+
+<script type="text/javascript">
+  function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 2000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
+</script>
     
  
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>task</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="task" fill-rule="nonzero">
+            <path d="M7,14 C3.13400675,14 0,10.8659933 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659933,0 14,3.13400675 14,7 C14,10.8659933 10.8659933,14 7,14 Z M7,10.5 C8.93299663,10.5 10.5,8.93299663 10.5,7 C10.5,5.06700337 8.93299663,3.5 7,3.5 C5.06700337,3.5 3.5,5.06700337 3.5,7 C3.5,8.93299663 5.06700337,10.5 7,10.5 Z" id="Combined-Shape" fill="#234D69"></path>
+            <path d="M4.87868354,9.78411769 C5.46725445,10.233256 6.20247652,10.5 7,10.5 C8.93299663,10.5 10.5,8.93299663 10.5,7 C10.5,5.21182951 9.15900986,3.73686406 7.42780982,3.52588388 L7.42780982,0.0128587352 C11.0945768,0.233921562 14,3.2776618 14,7 C14,10.8659933 10.8659933,14 7,14 C5.2356716,14 3.62379753,13.3472655 2.39269131,12.2701099 L4.87868354,9.78411769 Z" id="Combined-Shape" fill="#219DEB"></path>
+        </g>
+    </g>
+</svg>
