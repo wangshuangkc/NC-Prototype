@@ -97,7 +97,7 @@ h1 {
 
 
 .status .task {
-  background: url("/Users/alison.cheng/Desktop/NC_Prototype/images/Tasks.svg");
+  background: url("images/Tasks.svg");
 }
 
 .status .task::after {
